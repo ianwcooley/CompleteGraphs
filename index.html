@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HEAD -->
+	<head>
+		<!-- Links -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!-- Title -->
+		<title>Complete Graphs</title>
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="author" content="Ian W Cooley">
+		<meta name="description" content="Complete Graphs up to 50 Nodes!">
+		<!-- Styles -->
+		<style>
+			body {
+				background: rgb(25,124,290);
+				color: rgb(190,190,190);
+				font-family: 'Open Sans', sans-serif;
+				font-size: 120%;
+			}
+			h1, p {
+				text-align: center;
+			}
+			h1 {
+				margin-bottom: 30px;
+				font-size: 200%;
+			}
+			input {
+				color: rgb(190, 190, 190);
+				font-family: 'Open Sans', sans-serif;
+				font-size: 110%;
+				width: 2em;
+			}
+
+		</style>
+		<!-- Scripts -->
+		<script type="text/javascript" src="scripts/imports/d3.v3.min.js"></script>
+	</head>
+
+	<!-- BODY -->
+	<body>
+		<h1>Complete Graphs</h1>
+		<p>In a <strong>complete graph</strong>, every pair of nodes is connected by an edge.</p>
+		<p>This application draws complete graphs up to 25 nodes.</p>
+		<p> --- </p>
+		<p>Draw a graph on <input type="text" name="node-input"> nodes:</p>
+		<div id="graph"><svg></svg></div>
+		<!-- Scripts -->
+		<script type="text/javascript" src="scripts/imports/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="scripts/my_script.js"></script>
+	</body>
+
+</html>
