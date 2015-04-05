@@ -70,7 +70,7 @@ function drawGraph(element, radius, numberOfNodes) {
 			"background-color": "rgb(25,124,290)",
 			"position": "relative",
 			"left": "50%",
-			"margin-left", -(radius + 30),
+			"margin-left": -(radius + 30) + "px",
 			"margin-top": "30px",
 			"margin-bottom": "50px"
 		});
